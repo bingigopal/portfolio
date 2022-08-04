@@ -1,0 +1,42 @@
+.aslide .nav li::before{
+    border-top: 5px solid #ff1493;
+    border-left: 5px solid #ff1493;
+}
+.aslide .nav li::after{
+    border-bottom: 5px solid #ff1493;
+    border-right: 5px solid #ff1493;
+}
+.aslide .nav li a .fa,
+.aslide .nav li a:hover,
+.container .a .first-text,
+.contact .contact-info-item .icon .fa,
+.btn,
+.card-title,
+h2,h3,
+.skills-info i,.skill-item .interests i,
+.contact i,.about-section i,.intro .fa-download
+{
+    color: #ff1493;
+}
+.social-links a,
+.aslide .nav-toggler span,
+.aslide .nav-toggler span::before,
+.aslide .nav-toggler span::after,
+.skill-item .skill-content .progress-in{
+    background-color: #ff1493;
+}
+/* .aslide .nav li a{
+    border-bottom: 2px solid #ffb400;
+} */
+.aslide .nav-toggler,
+.btn,
+.contact .contact-form .form-item .form-control,
+.project-info .card img{
+border: 1px solid #ff1493;
+}
+.container .a span::before{
+    border-left: 3px solid #ff1493;
+}
+.intro img{
+border: 8px solid #ff1493;
+}
