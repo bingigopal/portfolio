@@ -12,20 +12,6 @@ function GetStyle(color){
     }
 }
 
-
-// const nav=document.querySelector(".nav"),
-// navlist=nav.querySelectorAll("li"),
-// totalnavlist=navlist.length;
-// for(let i=0;i<totalnavlist;i++){
-//     const a=navlist[i].querySelector("a");
-//     a.addEventListener("click",function(){
-//         for(let j=0;j<totalnavlist;j++){
-//             navlist[j].querySelector("a").classList.remove("active")
-//         }
-//         this.classList.add("active")
-//     })
-    
-// }
 //contact sending mail
 function Sendmail(){
     var parm={
@@ -38,12 +24,13 @@ function Sendmail(){
         alert("Mesage sent Successfully")
     );
 }
+
 //imageslide
 var myImage=document.getElementById('imag')
 var count=0
 function imageChange(){
     let mySrc=myImage.getAttribute('src');
-    var images=['gopal3.jpeg','pass photo gopal.jpeg','gopal2.jpeg',"gopal4.jpeg"]
+    var images=['gopal3.jpeg','gopal1.jpeg','pass photo gopal.jpeg','gopal2.jpeg',"gopal4.jpeg"]
     if (count==images.length){
         count=0
     }
@@ -53,6 +40,8 @@ function imageChange(){
     }
 }
 setInterval("imageChange()",2000)
+
+
 //project slides
 var myImag=document.getElementById('ig')
 var c=0
