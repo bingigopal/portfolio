@@ -30,7 +30,7 @@ var myImage=document.getElementById('imag')
 var count=0
 function imageChange(){
     let mySrc=myImage.getAttribute('src');
-    var images=['gopal3.jpeg','gopal4.jpeg','gopal2.jpeg',"gopal5.jpeg"]
+    var images=['gopal3.jpeg','gopal4.jpeg','gopal1.jpeg','gopal2.jpeg',"gopal5.jpeg"]
     if (count==images.length){
         count=0
     }
