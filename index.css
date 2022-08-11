@@ -161,7 +161,6 @@ overflow-y: auto;
     margin-top: 5%;
 }
 .home-section{
-    display:flexbox;
     display: -ms-flexbox;
     text-align: center;
     justify-content: center;
