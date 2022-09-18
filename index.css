@@ -429,8 +429,8 @@ align-content: center;
     display: flex;
 }
 .project-info .card img{
-    height:10%;
-    width:50%;
+    height:20%;
+    width:100%;
     left:0;
     display: flex;
 /*     object-fit: cover; */
