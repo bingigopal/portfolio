@@ -430,10 +430,10 @@ align-content: center;
 }
 .project-info .card img{
     height:10%;
-    width:100%;
+    width:50%;
     left:0;
     display: flex;
-    object-fit: cover;
+/*     object-fit: cover; */
     border:1px solid #e01212;
 }
 .project-info .card .card-title{
