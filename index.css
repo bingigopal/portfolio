@@ -433,7 +433,7 @@ align-content: center;
     width:100%;
 /*     left:0; */
 /*     display: flex; */
-/*     object-fit: cover; */
+    object-fit:contain;
     border:1px solid #e01212;
 }
 .project-info .card .card-title{
