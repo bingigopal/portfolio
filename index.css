@@ -429,8 +429,8 @@ align-content: center;
     display: flex;
 }
 .card img{
-    height:2%;
-    width:80%;
+    height:100px;
+    width:90%;
 /*     left:0; */
 /*     display: flex; */
 /*     object-fit:contain; */
