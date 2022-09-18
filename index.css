@@ -428,11 +428,11 @@ align-content: center;
     font-size: 40px;
     display: flex;
 }
-.project-info .card img{
+.card img{
     height:5%;
     width:100%;
-/*     left:0; */
-/*     display: flex; */
+    left:0;
+    display: flex;
     object-fit:contain;
     border:1px solid #e01212;
 }
