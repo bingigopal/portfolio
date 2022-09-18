@@ -429,11 +429,11 @@ align-content: center;
     display: flex;
 }
 .card img{
-    height:5%;
-    width:100%;
-    left:0;
-    display: flex;
-    object-fit:contain;
+    height:2%;
+    width:80%;
+/*     left:0; */
+/*     display: flex; */
+/*     object-fit:contain; */
     border:1px solid #e01212;
 }
 .project-info .card .card-title{
