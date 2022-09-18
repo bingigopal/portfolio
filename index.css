@@ -429,7 +429,7 @@ align-content: center;
     display: flex;
 }
 .project-info .card img{
-    height:60%;
+    height:30%;
     width:100%;
     left:0;
     display: flex;
