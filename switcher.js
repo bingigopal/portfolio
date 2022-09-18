@@ -47,7 +47,7 @@ var myImag=document.getElementById('ig')
 var c=0
 function imaeChange(){
     let mySrc=myImag.getAttribute('src');
-    var image=['g1.png','g2.png','g4.png',"g5.png"]
+    var image=['srmsimg.png','g1.png','g2.png','g4.png',"g5.png"]
     if (c==image.length){
         c=0
     }
